@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+<title>Tecnicosaurios :: Contactenos</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style type="text/css">
+a:link {
+	color: #2E2721;
+	text-decoration: none;
+}
+a:hover {
+	color: #2E2721;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+	color: #2E2721;
+}
+a:active {
+	text-decoration: none;
+	color: #36322b;
+}
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: repeat;
+}
+</style>
+</head>
+<body>
+
+<div id="main_container">
+	<div id="header"></div>
+        <div class="menu">
+        	<ul>                                                                         
+        		<li><a href="http://www.tecnicosaurios.com">Inicio</a></li>
+                <li><a href="http://www.tecnicosaurios.com/foro/portal.php">Portal</a></li>
+                <li><a href="http://www.tecnicosaurios.com/foro/index.php">Foro</a></li>
+                <li><a href="http://www.archivotecnicosaurios.com/datasheets">Datasheets</a></li>
+                <li><a href="http://www.tecnicosaurios.com/foro/charla">Chat</a></li>
+                <li><a href="http://www.tecnicosaurios.com/reglamento.html">Reglamento</a></li>
+                <li><a href="http://www.tecnicosaurios.com/donaciones.html">Donaciones</a></li>
+                <li class="selected"><a href="http://www.tecnicosaurios.com/contacto.html">Contacto</a></li>
+        	</ul>
+        </div>
+        
+    <div class="center_content">
+      <table width="600" align="center">
+        <tr>
+          <td><table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="45" align="left" valign="top" class="br_01_fdo_01"><table width="98%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="left" valign="top" class="br_01_menu"><ul>
+            </ul></td>
+          </tr>
+        </table></td>
+        <td width="715" align="left" valign="top" class="content_base"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <script language="JavaScript" type="text/javascript">
+		function validateForm() {
+			var i,nm,cmp,req,cal,errors='',args=validateForm.arguments;
+			for (i=0; i < (args.length-2); i+=3) {
+				nm=args[i]; cmp=args[i+1]; req=args[i+2];
+				val=document.getElementById(cmp).value;
+				if ((req=='notempty') && val==""){errors+="* El campo "+nm+" es requerido para el envio de formulario.\n";}
+		var reg_exp = /[0-9a-z]([-_.+0-9a-z])*@[0-9a-z???????]([-.]?[0-9a-z???????])*\.[a-z]{2,7}/i;
+				if ((req=='notemptyemail') && !(reg_exp.test(val))){errors+="* El campo "+nm+" debe contener una dirección de email válida.\n";}
+				if ((req=='email') && (val!="" && !(reg_exp.test(val)))){errors+="* El campo "+nm+" debe contener una dirección de email válida.\n";}
+			}
+			if (errors != "") {alert('Se encontraron los siguientes errores:\n\n'+errors); return false;}
+			else {return true;}
+		}
+	</script>
+            <td align="left" valign="top" class="form_padd"><form id="form" method="post" action="form_process.php" style="margin: 0; padding: 0; font-size: 14px;" onsubmit="return validateForm('Nombre','1_nombre','notempty','Apellido','2_apellido','notempty','e-mail','4_e-mail','notempty','Asunto','5_asunto','notempty','Mensaje','6_mensaje','notempty');">
+              <div class="form_container">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="20%" height="32" align="right" valign="top" nowrap="nowrap" class="form_labels"><font color="#FF0000">*</font>Nombre</td>
+                    <td width="80%" align="left" class="form_inputs" valign="top">&nbsp;<input type="text" id="1_nombre" name="1_nombre" value="" size="30" maxlength="150" /></td>
+                  </tr>
+                  <tr>
+                    <td height="31" align="right" valign="top" nowrap="nowrap" class="form_labels"><font color="#FF0000">*</font>Apellido</td>
+                    <td width="80%" align="left" class="form_inputs" valign="top">&nbsp;<input type="text" id="2_apellido" name="2_apellido" value="" size="30" maxlength="150" /></td>
+                  </tr>
+                  <tr>
+                    <td height="31" align="right" valign="top" nowrap="nowrap" class="form_labels">Telefono</td>
+                    <td width="80%" align="left" class="form_inputs" valign="top">&nbsp;<input type="text" id="3_telefono" name="3_telefono" value="" size="20" maxlength="150" /></td>
+                  </tr>
+                  <tr>
+                    <td height="32" align="right" valign="top" nowrap="nowrap" class="form_labels"><font color="#FF0000">*</font>e-mail</td>
+                    <td width="80%" align="left" class="form_inputs" valign="top">&nbsp;<input type="text" id="4_e-mail" name="4_e-mail" value="" size="45" maxlength="250" /></td>
+                  </tr>
+                  <tr>
+                    <td height="51" align="right" valign="top" nowrap="nowrap" class="form_labels"><font color="#FF0000">*</font>Asunto</td>
+                    <td width="80%" align="left" class="form_inputs" valign="top">&nbsp;<input type="text" id="5_asunto" name="5_asunto" value="" size="45" maxlength="250" /></td>
+                  </tr>
+                  <tr>
+                    <td align="right" valign="top" class="form_labels" nowrap="nowrap"><font color="#FF0000">*</font>Mensaje</td>
+                    <td width="80%" align="left" class="form_inputs" valign="top">&nbsp;<textarea id="6_mensaje" name="6_mensaje" cols="60" rows="10"></textarea></td>
+                  </tr>
+                  <tr>
+                    <td align="right" valign="top">&nbsp;</td>
+                    <td width="80%" align="left" class="form_inputs" valign="top">&nbsp;<input type="submit" name="Submit" value="Enviar" class="button" /></td>
+                  </tr>
+                </table>
+              </div>
+            </form></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      <table width="600" align="center">
+        <tr>
+          <th align="center" valign="middle">(*) Los campos son requeridos</th>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+</div>    
+
+    
+    <div id="footer">                                              
+        <div class="left_footer"><a href="http://www.tecnicosaurios.com">Inicio</a> <a href="http://www.tecnicosaurios.com/foro/portal.php">Portal</a> <a href="http://www.tecnicosaurios.com/foro/index.php">Foro</a><a href="http://www.archivotecnicosaurios.com/datasheets">Datasheets</a><a href="http://www.tecnicosaurios.com/foro/charla">Chat</a><a href="http://www.tecnicosaurios.com/reglamento.html">Reglamento</a><a href="http://www.tecnicosaurios.com/donaciones.html">Donaciones</a><a href="http://www.tecnicosaurios.com/contacto.html">Contacto</a></div>
+        <div class="right_footer"><img src="images/charlymike2011.png" border="0" alt="" title="" />
+        </div>   
+    
+    </div>
+    
+    
+    
+  <p>&nbsp;</p>
+  <p>&reg; Tecnicosaurios.com - Todos los derechos reservados</p>
+  <p>&nbsp;</p>
+</div>
+<!-- end of main_container -->
+</body>
+</html>
